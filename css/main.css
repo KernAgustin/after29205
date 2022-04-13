@@ -31,6 +31,12 @@ header nav ul li{
     text-decoration: underline;
 }
 
+header nav ul li:hover{
+    transform: scale(1.1);
+    background-color: burlywood;
+    text-decoration: none;
+}
+
 /*estilos p*/
 
 .estilos-p{
