@@ -1,0 +1,62 @@
+/*estilos generales*/
+
+body{
+    background-color: burlywood;
+}
+
+/* estilos del header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(222, 162, 85);
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+/*estilos p*/
+
+.estilos-p{
+    font-size: 1.8rem;
+}
+
+/*estilos de card*/
+
+.estilos-card{
+    margin: 1rem;
+    background-color: rgb(222, 162, 85);
+}
+
+/*estilos botones*/
+
+.btn-estilos{
+    background-color: burlywood;
+    box-shadow: 2px 3px black;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;    
+}
+
+.btn-estilos:hover{
+    transform: scale(1.1);
+}
+
+
+
